@@ -1,0 +1,106 @@
+# English translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-11 09:12+0500\n"
+"PO-Revision-Date: 2025-03-11 09:15+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: bot/buttons/inline.py:8
+msgid "Order"
+msgstr ""
+
+#: handler/fast_food_handler.py:21
+msgid "🍔 Burger"
+msgstr ""
+
+#: handler/fast_food_handler.py:21
+msgid "🌭 Hot-dog"
+msgstr ""
+
+#: handler/fast_food_handler.py:21 handler/main_handler.py:25
+#: handler/main_handler.py:56 handler/meals_handler.py:22
+#: handler/salads_handler.py:22
+msgid "⬅️ Back"
+msgstr ""
+
+#: handler/fast_food_handler.py:31 handler/fast_food_handler.py:42
+#: handler/meals_handler.py:32 handler/meals_handler.py:43
+#: handler/salads_handler.py:32 handler/salads_handler.py:43
+msgid "Name"
+msgstr ""
+
+#: handler/fast_food_handler.py:32 handler/fast_food_handler.py:43
+#: handler/meals_handler.py:33 handler/meals_handler.py:44
+#: handler/salads_handler.py:33 handler/salads_handler.py:44
+msgid "Ingredients"
+msgstr ""
+
+#: handler/main_handler.py:18 handler/main_handler.py:44
+msgid "🍽 Restoran Menu"
+msgstr ""
+
+#: handler/main_handler.py:18 handler/main_handler.py:44
+msgid "📞 Call center"
+msgstr ""
+
+#: handler/main_handler.py:18 handler/main_handler.py:44
+msgid "🇺🇿🇬🇧 Lang"
+msgstr ""
+
+#: handler/main_handler.py:20 handler/main_handler.py:47
+msgid "🏠 Main Menu:"
+msgstr ""
+
+#: handler/main_handler.py:25
+msgid "🇺🇿 Uzbek"
+msgstr ""
+
+#: handler/main_handler.py:25
+msgid "🇬🇧 English"
+msgstr ""
+
+#: handler/main_handler.py:28
+msgid "Choose Language: "
+msgstr ""
+
+#: handler/main_handler.py:56
+msgid "🥗 Salads"
+msgstr ""
+
+#: handler/main_handler.py:56
+msgid "🍕 Fast Food"
+msgstr ""
+
+#: handler/main_handler.py:56
+msgid "🍜 Meals"
+msgstr ""
+
+#: handler/meals_handler.py:22
+msgid "🍛 Palov"
+msgstr ""
+
+#: handler/meals_handler.py:22
+msgid "🍲 Soup"
+msgstr ""
+
+#: handler/salads_handler.py:22
+msgid "🥗 caesar salad"
+msgstr ""
+
+#: handler/salads_handler.py:22
+msgid "🥗 olive salad"
+msgstr ""
+

@@ -1,0 +1,107 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-11 09:12+0500\n"
+"PO-Revision-Date: 2025-03-11 09:20+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: bot/buttons/inline.py:8
+msgid "Order"
+msgstr "Buyurtma berish"
+
+#: bot/handler/fast_food_handler.py:22
+msgid "🍔 Burger"
+msgstr "🍔 Burger"
+
+#: bot/handler/fast_food_handler.py:22
+msgid "🌭 Hot-dog"
+msgstr "🌭 Hot-dog"
+
+#: bot/handler/fast_food_handler.py:22 bot/handler/main_handler.py:25
+#: bot/handler/main_handler.py:56 bot/handler/meals_handler.py:22
+#: bot/handler/salads_handler.py:22
+#, fuzzy
+msgid "⬅️ Back"
+msgstr "⬅️ Orqaga"
+
+#: bot/handler/fast_food_handler.py:32 bot/handler/fast_food_handler.py:43
+#: bot/handler/meals_handler.py:32 bot/handler/meals_handler.py:43
+#: bot/handler/salads_handler.py:32 bot/handler/salads_handler.py:43
+msgid "Name"
+msgstr "Nomi"
+
+#: bot/handler/fast_food_handler.py:33 bot/handler/fast_food_handler.py:44
+#: bot/handler/meals_handler.py:33 bot/handler/meals_handler.py:44
+#: bot/handler/salads_handler.py:33 bot/handler/salads_handler.py:44
+msgid "Ingredients"
+msgstr "Mahsulotlari"
+
+#: bot/handler/main_handler.py:18 bot/handler/main_handler.py:44
+msgid "🍽 Restoran Menu"
+msgstr "🍽 Restoran Menyu"
+
+#: bot/handler/main_handler.py:18 bot/handler/main_handler.py:44
+msgid "📞 Call center"
+msgstr "📞 Aloqa uchun"
+
+#: bot/handler/main_handler.py:18 bot/handler/main_handler.py:44
+msgid "🇺🇿🇬🇧 Lang"
+msgstr "🇺🇿🇬🇧 Til"
+
+#: bot/handler/main_handler.py:20 bot/handler/main_handler.py:47
+msgid "🏠 Main Menu:"
+msgstr "🏠 Asosiy Menyu:"
+
+#: bot/handler/main_handler.py:25
+msgid "🇺🇿 Uzbek"
+msgstr "🇺🇿 O'zbek tili"
+
+#: bot/handler/main_handler.py:25
+msgid "🇬🇧 English"
+msgstr "🇬🇧 Ingiliz tili"
+
+#: bot/handler/main_handler.py:28
+msgid "Choose Language: "
+msgstr "Tilni tanlang"
+
+#: bot/handler/main_handler.py:56
+msgid "🥗 Salads"
+msgstr "🥗 Salatlar"
+
+#: bot/handler/main_handler.py:56
+msgid "🍕 Fast Food"
+msgstr "🍕 Fast Food"
+
+#: bot/handler/main_handler.py:56
+msgid "🍜 Meals"
+msgstr "🍜 Issiq taomlar"
+
+#: bot/handler/meals_handler.py:22
+msgid "🍛 Palov"
+msgstr "🍛 Osh"
+
+#: bot/handler/meals_handler.py:22
+msgid "🍲 Soup"
+msgstr "🍲 Sho'rva"
+
+#: bot/handler/salads_handler.py:22
+msgid "🥗 caesar salad"
+msgstr "🥗 Sezar salati"
+
+#: bot/handler/salads_handler.py:22
+msgid "🥗 olive salad"
+msgstr "🥗 Olivya salati"
+
