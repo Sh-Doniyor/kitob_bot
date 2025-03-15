@@ -18,89 +18,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
 
-#: bot/buttons/inline.py:8
 msgid "Order"
 msgstr ""
 
-#: handler/fast_food_handler.py:21
 msgid "🍔 Burger"
 msgstr ""
 
-#: handler/fast_food_handler.py:21
 msgid "🌭 Hot-dog"
 msgstr ""
 
-#: handler/fast_food_handler.py:21 handler/main_handler.py:25
-#: handler/main_handler.py:56 handler/meals_handler.py:22
-#: handler/salads_handler.py:22
 msgid "⬅️ Back"
 msgstr ""
 
-#: handler/fast_food_handler.py:31 handler/fast_food_handler.py:42
-#: handler/meals_handler.py:32 handler/meals_handler.py:43
-#: handler/salads_handler.py:32 handler/salads_handler.py:43
+
 msgid "Name"
 msgstr ""
 
-#: handler/fast_food_handler.py:32 handler/fast_food_handler.py:43
-#: handler/meals_handler.py:33 handler/meals_handler.py:44
-#: handler/salads_handler.py:33 handler/salads_handler.py:44
-msgid "Ingredients"
+
+msgid "Boy ota , kambag'al ota -Robert  Kiyosaki"
 msgstr ""
 
-#: handler/main_handler.py:18 handler/main_handler.py:44
-msgid "🍽 Restoran Menu"
+msgid "Muvaffaqiyat odatlari-Stephen Covey"
 msgstr ""
 
-#: handler/main_handler.py:18 handler/main_handler.py:44
+msgid "Kitoblar katalogi"
+msgstr ""
+
 msgid "📞 Call center"
 msgstr ""
 
-#: handler/main_handler.py:18 handler/main_handler.py:44
 msgid "🇺🇿🇬🇧 Lang"
 msgstr ""
 
-#: handler/main_handler.py:20 handler/main_handler.py:47
 msgid "🏠 Main Menu:"
 msgstr ""
 
-#: handler/main_handler.py:25
 msgid "🇺🇿 Uzbek"
 msgstr ""
 
-#: handler/main_handler.py:25
 msgid "🇬🇧 English"
 msgstr ""
 
-#: handler/main_handler.py:28
 msgid "Choose Language: "
 msgstr ""
 
-#: handler/main_handler.py:56
-msgid "🥗 Salads"
+msgid "Badiiy adabiyot"
 msgstr ""
 
-#: handler/main_handler.py:56
-msgid "🍕 Fast Food"
+msgid "Ilmiy ommabop"
 msgstr ""
 
-#: handler/main_handler.py:56
-msgid "🍜 Meals"
+msgid "Biznes va rivojlanish"
 msgstr ""
 
-#: handler/meals_handler.py:22
-msgid "🍛 Palov"
+msgid "O'tkan kunlar"
 msgstr ""
 
-#: handler/meals_handler.py:22
-msgid "🍲 Soup"
+msgid "Mehrobdan Chayon"
 msgstr ""
 
-#: handler/salads_handler.py:22
-msgid "🥗 caesar salad"
+msgid "Qiziqarli fizika"
 msgstr ""
 
-#: handler/salads_handler.py:22
-msgid "🥗 olive salad"
+msgid "Tibbiyot mo'jizalari"
 msgstr ""
 

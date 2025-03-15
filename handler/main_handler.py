@@ -15,7 +15,7 @@ main_router = Router()
 @main_router.message(SectorState.restoran_menu, F.text == __("⬅️ Back"))
 @main_router.message(CommandStart())
 async def command_start_handler(message: Message) -> None:
-    texts = [_("🍽 Restoran Menu"), _("📞 Call center"), _("🇺🇿🇬🇧 Lang")]
+    texts = [_("Kitoblar katalogi"), _("📞 Call center"), _("🇺🇿🇬🇧 Lang")]
     markup = build_reply_button(texts, (2,))
     await message.answer(_("🏠 Main Menu:"), reply_markup=markup)
 
@@ -41,7 +41,7 @@ async def language_handler(message: Message, state: FSMContext) -> None:
         I18n.middleware.set_locale(code)
     else:
         I18n.current_locale = code
-    texts = _("🍽 Restoran Menu"), _("📞 Call center"), _("🇺🇿🇬🇧 Lang")
+    texts = _("Kitoblar katalogi"), _("📞 Call center"), _("🇺🇿🇬🇧 Lang")
     markup = build_reply_button(texts, (2,))
     await state.set_state(SectorState.restoran_menu)
     await message.answer(_("🏠 Main Menu:"), reply_markup=markup)
@@ -51,15 +51,15 @@ async def language_handler(message: Message, state: FSMContext) -> None:
 @main_router.message(SectorState.fast_food_menu, F.text == __("⬅️ Back"))
 @main_router.message(SectorState.salads_menu, F.text == __("⬅️ Back"))
 @main_router.message(SectorState.food_order, F.text ==  __("⬅️ Back"))
-@main_router.message(F.text == __("🍽 Restoran Menu"))
+@main_router.message(F.text == __("Kitoblar katalogi"))
 async def restoran_handler(message: Message, state: FSMContext) -> None:
-    texts = [_("🥗 Salads"), _("🍕 Fast Food"), _("🍜 Meals"), _("⬅️ Back")]
+    texts = [_("Badiiy adabiyot"), _("Ilmiy ommabop"), _("Biznes va rivojlanish"), _("⬅️ Back")]
     markup = build_reply_button(texts, (3, 1))
     await state.set_state(SectorState.restoran_menu)
-    await message.answer("🍽 Restoran Menu:", reply_markup=markup)
+    await message.answer("Kitoblar katalogi", reply_markup=markup)
 
 
 @main_router.message(F.text == __("📞 Call center"))
 async def handle_call_center(message: Message) -> None:
-    await message.answer(text="📞 Call Center: +998901234567\n 👩‍💻 @TrendyAdmin")
+    await message.answer(text="📞 Call Center: +998507794564\n 👩‍💻 @Shirinov_022")
 

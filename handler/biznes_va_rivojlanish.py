@@ -5,7 +5,6 @@ from aiogram.types import Message
 from aiogram.utils.i18n import gettext as _
 from aiogram.utils.i18n import lazy_gettext as __
 
-from bot.buttons.inline import pagination_inline_button
 from bot.buttons.reply import build_reply_button
 from bot.db.model import Food
 from bot.dispatchers import dp
@@ -24,25 +23,3 @@ async def salad_handler(message: Message, state: FSMContext) -> None:
     await state.set_state(SectorState.salads_menu)
     await message.answer("Biznes va rivojlanish", reply_markup=markup)
 
-
-@dp.message(SectorState.salads_menu, F.text == __("🥗 caesar salad"))
-async def salad_menu_handler(message: Message, state: FSMContext) -> None:
-    first_salad = salads[0]
-    image = first_salad.image
-    caption = (f"{_('Name')}: {first_salad.name}\n"
-               f"{_('Ingredients')}: {first_salad.ingredients}"
-               )
-    await state.set_state(SectorState.food_order)
-    markup = pagination_inline_button()
-    await message.answer_photo(image, caption=caption, reply_markup=markup)
-
-@dp.message( F.text == __("🥗 olive salad"))
-async def salad_menu_handler(message: Message, state: FSMContext) -> None:
-    second_salad = salads[1]
-    image = second_salad.image
-    caption = (f"{_('Name')}: {second_salad.name}\n"
-               f"{_('Ingredients')}: {second_salad.ingredients}"
-               )
-    await state.set_state(SectorState.food_order)
-    markup = pagination_inline_button()
-    await message.answer_photo(image, caption=caption, reply_markup=markup)
