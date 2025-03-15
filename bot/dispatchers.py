@@ -41,30 +41,3 @@ dp = Dispatcher()
 
 
 
-
-
-
-
-#
-# alembic qilayotganda:
-#
-#
-# https://medium.com/@johnidouglasmarangon/using-migrations-in-python-sqlalchemy-with-alembic-docker-solution-bd79b219d6a saytga kiramiz va aytilgan narsalarni install qilib olamiz:
-#
-# 1:pip install psycopg2-binary sqlalchemy
-# 2:pip install alembic
-# 3:alembic init migrations
-# 4:sqlalchemy.url = postgresql+psycopg2://myuser:mypassword@0.0.0.0:5432/mydb shu joyga ozimiznikini kiritamiz yani :
-# "sqlalchemy.url = postgresql+psycopg2://postgres:1@localhost/chat_bot_db"
-# 5:models.py ichiga metadata=Base.metadata deb yozamiz
-# 6:env.py ichidagi :target_metadata = none " qiymatni target_metadata = metadata qilib ozgartiramiz
-# 7:MAkefileni ichiga :
-# mig :
-#   alembic revision --autogenerate -m "Create a baseline migrations"
-# #migratsiya faylini yaratadi
-# head:
-#   alembic upgrade head
-# upgrade:
-#   alembic upgrade head
-# downgrade:
-#   alembic downgrade head
