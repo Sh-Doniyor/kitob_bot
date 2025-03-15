@@ -17,12 +17,12 @@ Food(id=2, name="🥗 olive salad", image="AgACAgIAAxkBAAEdZ0ZnytqGHJ_jPo-aibbGw
 
 
 
-@dp.message(SectorState.restoran_menu, F.text == __("🥗 Salads"))
+@dp.message(SectorState.restoran_menu, F.text == __("Biznes va rivojlanish"))
 async def salad_handler(message: Message, state: FSMContext) -> None:
-    texts = [_("🥗 caesar salad"), _("🥗 olive salad"),  _("⬅️ Back")]
+    texts = [_("Boy ota , kambag'al ota -Robert  Kiyosaki"), _("Muvaffaqiyat odatlari-Stephen Covey"),  _("⬅️ Back")]
     markup = build_reply_button(texts, (2, 1))
     await state.set_state(SectorState.salads_menu)
-    await message.answer("🍽 Restoran Menu", reply_markup=markup)
+    await message.answer("Biznes va rivojlanish", reply_markup=markup)
 
 
 @dp.message(SectorState.salads_menu, F.text == __("🥗 caesar salad"))

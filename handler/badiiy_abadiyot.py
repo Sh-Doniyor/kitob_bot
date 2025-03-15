@@ -16,12 +16,12 @@ fast_food = [Food(id=1, name="🍔 Burger", image = "AgACAgIAAxkBAAEdbFJnzUpHsgL
 Food(id=2, name="🌭 Hot-dog", image="AgACAgIAAxkBAAEdZ2Jnyt9e9-55RuWUE_Hjj3jdlN9zYAACS_MxG9jEUEotxq-WcxTj8gEAAwIAA3kAAzYE", ingredients="jkhigytfrydtesrxdcfvgnjk")]
 
 
-@dp.message(SectorState.restoran_menu, F.text == __("🍕 Fast Food"))
+@dp.message(SectorState.restoran_menu, F.text == __("Badiiy adabiyot"))
 async def fast_food_handler(message: Message, state: FSMContext) -> None:
-    texts = [_("🍔 Burger"), _("🌭 Hot-dog"),  _("⬅️ Back")]
+    texts = [_("O'tkan kunlar-Abdulla Qodiriy"), _("Mehrobdan chayon-Cho'pon"),  _("⬅️ Back")]
     markup = build_reply_button(texts, (2, 1))
     await state.set_state(SectorState.salads_menu)
-    await message.answer("🍽 Restoran Menu", reply_markup=markup)
+    await message.answer("Kitoblar katalogi", reply_markup=markup)
 
 
 @dp.message(SectorState.fast_food_menu, F.text == __("🍔 Burger"))
